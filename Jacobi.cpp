@@ -1,27 +1,9 @@
 #include<iostream>
 #include<iomanip>
 #include<math.h>
-/* In this example we are solving
-   8x - 3y + 2z = 20
-   4x + 11y - z = 33
-   6x + 3y - 12z = 35
-*/
-/* Arranging given system of linear
-   equations in diagonally dominant
-   form:
-   8x - 3y + 2z = 20
-   4x + 11y - z = 33
-   6x + 3y - 12z = 35
-*/
-/* Equations:
-   x = (20+3y-2z)/8
-   y = (33-4x+z)/11
-   z = (-35+6x+3y)/12
-*/
-/* Defining function */
-#define f1(x,y,z)  (20+3*y-2*z)/8
-#define f2(x,y,z)  (33-4*x+z)/11
-#define f3(x,y,z)  (-35+6*x+3*y)/12
+#define f1(x,y,z)  (2-y-z)/4
+#define f2(x,y,z)  (-6-x-2*z)/5
+#define f3(x,y,z)  (-4-x-2*y)/3
 using namespace std;
 int main()
 {
